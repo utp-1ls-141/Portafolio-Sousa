@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Practica #1 - Para parcial</title>
+    <link rel="stylesheet" href="./vendor/bootstrap/css/bootstrap.min.css">
+</head>
+<body>
+    <h1>Practica #1 - Para parcial</h1>
+
+    <h2>Problema #1</h2>
+
+    <div>
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Texto #1" aria-label="Texto #1" id="text1">
+                </div>
+            </div>
+            <br>
+            <div class="col-lg-6">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Texto #2" aria-label="Texto #2" id="text2">
+                        <button class="btn btn-primary" type="submit" id="miBoton">Iniciar</button>
+                    
+                </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+
+    <div class="modal fade" id="miModal" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Contenido -->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" id="Close">&times;</button>
+                    <h4 class="modal-title">Ventana Modal</h4>
+                </div>
+                <div class="modal-body">
+                    <p></p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal" id="btnClose">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./vendor/jquery/jquery-3.3.1.min.js"></script>
+    <script src="./vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="./js/practica1.js"></script>
+</body>
+</html>

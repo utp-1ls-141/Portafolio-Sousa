@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Parcial #2</title>
+    <link rel ="stylesheet" href="./vendor/bootstrap/css/bootstrap.min.css">
+</head>
+<body>
+    <center><h1>Parcial #2</h1></center>
+
+    <div class="row">
+        <div class="col-sm-4"></div>
+        <div class="col-sm-5" style="background-color:red;">
+            <br>
+            <h4>Problema #1</h4>
+            <div class="form-group">
+              <input type="text" class="form-control" id="txt1" placeholder="Texto #1">
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" id="txt2" placeholder="Texto #2">
+            </div>
+            <div class="form-group">
+                <input type="text" class="form-control" id="txt3" placeholder="Texto #3">  
+            </div>
+            <button type="submit" class="btn btn-primary" id="boton1">Iniciar</button>
+            <br></br>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="row">
+        <div class="col-sm-4"></div>
+        <div class="col-sm-5" style="background-color: yellow;">
+            <br>
+            <h4>Problema #2</h4>
+            <div class="form-group">
+                <input type="text" class="form-control" id="txt4" placeholder="Texto para matriz">
+            </div>
+            <button type="submit" class="btn btn-primary" id="boton2">Iniciar</button>
+            <br><br>
+        </div>
+    </div>
+    <br>
+    <div class="row">
+        <div class="col-sm-4"></div>
+        <div class="col-sm-5" style="background-color: green;">
+            <br>
+            <h4>Problema #3</h4>
+            <div class="form-group">
+                    <input type="text" class="form-control" id="txt5" placeholder="Número doble palíndromo">
+            </div>
+            <button type="submit" class="btn btn-primary" id="boton3">Iniciar</button>
+            <br>
+        </div>
+    </div>
+
+
+        <!-- Modal -->
+
+        <div class="modal fade" id="miModal" role="dialog">
+            <div class="modal-dialog">
+    
+                <!-- Contenido -->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" id="Close">&times;</button>
+                        <h4 class="modal-title">Parcial 2</h4>
+                    </div>
+                    <div class="modal-body" id="mb1">
+                        <p></p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal" id="btnClose">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+            <!-- Modal #2 -->
+
+            <div class="modal fade" id="miModalTabla" role="dialog">
+                    <div class="modal-dialog">
+            
+                        <!-- Contenido -->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" id="Close">&times;</button>
+                                <h4 class="modal-title">Parcial 2</h4>
+                            </div>
+                            <div class="modal-body" id="mb2">
+                                
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal" id="btnClose">Cerrar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+    <script src="./vendor/jquery/jquery-3.3.1.min.js"></script>
+    <script src="./vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="./js/parcial2.js"></script>
+</body>
+</html>

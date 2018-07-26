@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Grupo #3</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <h2>Grupo #3</h2>
+          </div> </div></nav>
+<div class="container">
+  
+  
+  <center><h1>Proyecto de Recuperación</h1></center>
+  <div class="row">
+    <div class="col-sm-2"></div>
+    <div class="col-sm-8" style="background-color:whitesmoke;">
+      <form>
+        <h4>Problema #1</h4>
+        <div class="form-group">
+          <label for="email">Usuario:</label>
+          <input type="email" class="form-control" id="email" placeholder="Entrar usuario">
+        </div>
+        <div class="form-group">
+          <label for="pwd">Contraseña:</label>
+          <input type="password" class="form-control" id="pwd" placeholder="Entrar contraseña">
+        </div>
+        <button onclick="myFunction()" type="submit" class="btn btn-primary">Iniciar</button>
+        <br></br>
+       
+      </form>
+      <script>
+function trim (str)
+{
+     return str.replace (/^\s+|\s+$/g, '');
+}
+
+          function myFunction() {
+            
+            var x = document.getElementById('email');
+            var xx = document.getElementById('pwd');
+            var y = x.value;
+            var yy = xx.value;
+            if (trim(y)=='' || trim(yy)=='' )
+            {
+              alert('Faltan datos...')
+            }else
+            {
+              alert('Usuario: '+y +"  "+ 'Contraseña:'+yy);
+              }
+          }
+          </script>
+          
+    </div>
+    <div class="col-sm-2"></div>
+  </div>
+</div>
+<center><h6>Powered by Grupo #3</h6></center>
+</body> 
+</html>
